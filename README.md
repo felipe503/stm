@@ -2,9 +2,10 @@
 <p>First download open data from STM <a href="http://www.stm.info/en/about/developers" target="_blank">web site</a></p>
 <h2>To find the closest bus stop</h2>
 <code>
-var lat = '';
-var lng = '';
+
 $(document).ready(function(){
+	var lat = '';
+	var lng = '';
 	function addZero(i) {
 		if (i < 10) {
 			i = "0" + i;
