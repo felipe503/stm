@@ -54,17 +54,6 @@ $(document).ready(function(){
 				var err = textStatus + ", " + error;
 				console.log( "Request Failed: " + err );
 			});
-			/*
-			$.getJSON('data/stop_times.json',function(stop_times){
-				$.each(stop_times,function(){
-					$.each(this, function(){
-						if(this.stop_id == _this.stop_id)
-							console.log(this);
-					});
-					
-				});
-			});
-			*/
 		});
 	}
 	function initGeoLocation(){
