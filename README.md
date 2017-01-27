@@ -1,13 +1,12 @@
-<article class="readme">
-<h1>Using STM's open data</h1>
-<p>First download open data from STM <a href="http://www.stm.info/en/about/developers" target="_blank" class="anchor">web site</a></p>
-<h2>To find the closest bus stop</h2>
-<p>Using Geolocation, comparing coords with bus stops coordinates</p>
-<code>
+# Using STM's open data</h1>
+> First download open data from STM <a href="http://www.stm.info/en/about/developers" target="_blank" class="anchor">web site</a>
+# To find the closest bus stop
+> Using Geolocation, comparing coords with bus stops coordinates.
+	
 	var lat = '';
 	var lng = '';
+	
 	$(document).ready(function(){
-
 		function addZero(i) {
 			if (i < 10) {
 				i = "0" + i;
@@ -78,5 +77,3 @@
 			initGeoLocation();
 		});
 	});
-</code>
-</article>
