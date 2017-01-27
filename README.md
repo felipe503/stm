@@ -1,6 +1,9 @@
-# Using STM's open data</h1>
+# Using STM's open data
+
 > First download open data from STM <a href="http://www.stm.info/en/about/developers" target="_blank" class="anchor">web site</a>
-# To find the closest bus stop
+
+## To find the closest bus stop
+
 > Using Geolocation, comparing coords with bus stops coordinates.
 	
 	var lat = '';
